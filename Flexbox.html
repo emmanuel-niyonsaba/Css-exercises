@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+      
+      li{
+          list-style: none;
+          color: blue;
+      }
+      
+    
+   
+   
+    .card{
+        display: flex;
+        gap:5px;
+    }
+    [class ^=card-]{
+        background-color: blue;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:end;
+        gap: 2rem;
+    }
+  </style>
+</head>
+<body>
+<h1>This page is for the CSS exercises special on Flexbx</h1>
+<div class="navbar">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contacts</li>
+    
+    </ul>
+    <div class="card">
+        <div class="card-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ea similique officiis doloremque. Pariatur vero explicabo voluptatum suscipit fuga, fugiat vel quis ad maiores quae eum blanditiis quos, ullam iure.</div>
+        <div class="card-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab unde officia totam sequi in sed corporis voluptas similique ducimus, perferendis tempora facilis veniam, impedit officiis voluptates nemo quod? Blanditiis, id.</div>
+        <div class="card-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid reprehenderit modi ad. Quidem pariatur numquam similique rerum magni sed quo tenetur totam, eos, nisi dolor cupiditate</div>
+        <div class="card-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam minus molestiae minima dolore, adipisci cupiditate quis praesentium facere cumque nulla officia, consequatur ab veniam? Facere nece</div>
+    </div>
+    
+</body>
+</html>
