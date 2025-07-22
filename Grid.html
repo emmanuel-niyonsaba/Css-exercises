@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        [class^="child-"]{
+            background-color: blue;
+            color: white;
+           
+        }
+        .parent{
+            
+            display: grid;
+           gap: 1px;
+            grid-template-columns: repeat(3,1fr);
+            width: 100%;
+            justify-content:end ;  
+        }
+        .child-A{
+            grid-column: span 2;
+            text-align: center;
+        }
+        .child-B{
+            grid-row: span 3;
+            text-align: center;
+            
+           
+        }
+        .child-D{
+            grid-row: span 3;
+            text-align: center;
+            
+           
+        }
+    </style>
+</head>
+<body>
+  <h1>This page shows more about how Grip works in CSS</h1> 
+     <div class="parent">
+        <div class="child-A">A</div>
+        <div class="child-B">B</div>
+        <div class="child-C">C</div>
+        <div class="child-D">D<Emb></Emb></div>
+        <div class="child-E">E</div>
+        <div class="child-F">F</div>
+        <div class="child-G">G</div>
+     </div> 
+</body>
+</html>
